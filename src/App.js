@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
 
+import Layout from './Components/Layout/Layout';
+import Main from './Containers/Main/Main';
+
 
 class App extends Component {
   render() {
     return (
       <div>
-       <p>Just the beginning</p>
+        <Layout>
+          <Main/>
+        </Layout>
       </div>
     )
   }
